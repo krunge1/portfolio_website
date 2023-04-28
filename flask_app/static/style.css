@@ -1,0 +1,42 @@
+.header{
+    width: auto;
+    height: 15%;
+    margin: 2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.header_button_group{
+    justify-content: flex-end;
+}
+
+.header_box_justified{
+	margin: auto;
+    width: 60%;
+}
+
+.blue_text{
+	color: blue;
+}
+
+.box_sizing{
+	margin: auto;
+    width: 75%;
+    padding: 2em;
+}
+
+.form_box{
+    margin: auto;
+    width: 60%;
+    padding: 2em;
+}
+
+.border{
+	border: 25px solid black;
+}
+
+.display_flex{
+    display: flex;
+    justify-content: space-around;
+}
