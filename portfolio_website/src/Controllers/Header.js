@@ -1,17 +1,21 @@
-import React from 'react'
+import React from 'react';
+import {Link, Outlet} from "react-router-dom";
+
+import styles from "./Header.module.css";
 
 const Header = () => {
     return (
-    <div class="header">
-        <header>
-            <div class=""><p>Kyle Runge</p></div>
-            <div class="">
-                <a href="">home</a>
-                <a href="">expertise</a>
-                <a href="">projects</a>
-                <a href="">contact</a>
+    <div>
+        <header className={styles.header}>
+            <div><p>Kyle Runge</p></div>
+            <div className={styles.header_line_group}>
+                <Link className={styles.link} to="/home">home</Link>
+                <Link className={styles.link} to="/expertise">expertise</Link>
+                <Link className={styles.link} to="/projects">projects</Link>
+                <Link className={styles.link} to="/contact">contact</Link>
             </div>
         </header>
+        <Outlet/>
     </div>
     )
 }

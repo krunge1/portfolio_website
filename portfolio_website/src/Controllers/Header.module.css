@@ -1,0 +1,23 @@
+.header{
+    width: auto;
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_line_group{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_box_justified{
+	margin: auto;
+    width: 60%;
+}
+
+.link{
+    color: inherit;
+    text-decoration: inherit;
+    
+}
