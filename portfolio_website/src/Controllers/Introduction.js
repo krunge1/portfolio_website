@@ -3,7 +3,7 @@ import styles from './Introduction.module.css';
 
 const Introduction = () => {
     return (
-    <div>
+    <div className="backgroundImage">
         <h1>Hey, I'm Kyle Runge</h1>
         <p>A full stack web developer.</p>
 
