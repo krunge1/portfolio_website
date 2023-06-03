@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './Introduction.module.css';
 
+
 const Introduction = () => {
     return (
-    <div className={styles.backgroundImage}>
+    <div style={styles.backgroundImage}>
         <h1>Hey, I'm Kyle Runge</h1>
         <p>A full stack web developer.</p>
 
