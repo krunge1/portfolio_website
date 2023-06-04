@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Controllers/Header';
+import Landing from './Controllers/Landing';
 import Introduction from './Controllers/Introduction';
 import Skills from './Controllers/Skills';
 import Projects from './Controllers/Projects';
@@ -14,7 +15,8 @@ function App() {
       <Header/>
       <Navigation/>
       <Main main={"main"}>
-        <Introduction/>
+        <Landing/>
+        <Introduction/> 
         <Skills/>
         <Projects/>
         <Contact/>

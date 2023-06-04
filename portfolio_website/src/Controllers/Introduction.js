@@ -4,8 +4,8 @@ import styles from './Introduction.module.css';
 
 const Introduction = () => {
     return (
-    <div style={styles.backgroundImage}>
-        <h1>Hey, I'm Kyle Runge</h1>
+    <div >
+        <h1 className={styles.h1}>Hey, I'm Kyle Runge</h1>
         <p>A full stack web developer.</p>
 
         <h2>About Me</h2>

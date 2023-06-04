@@ -1,0 +1,15 @@
+.backgroundImage{
+    background-image: url(../assets/fog-tree-foggy-cloud.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1{
+    font-family: "WensleyDemo";
+    font-size: 50px;
+    
+}
