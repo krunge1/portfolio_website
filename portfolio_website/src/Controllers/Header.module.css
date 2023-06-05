@@ -1,7 +1,7 @@
 .header_body{
     position: sticky;
     top: 0px;
-
+    background-color: grey;
 }
 .header{
     width: auto;
@@ -14,11 +14,7 @@
     width: 25%;
     display: flex;
     justify-content: space-evenly;
-}
-
-.header_box_justified{
-	margin: auto;
-    width: 60%;
+    align-items: center;
 }
 
 .link{

@@ -5,9 +5,6 @@ import styles from './Introduction.module.css';
 const Introduction = () => {
     return (
     <div >
-        <h1 className={styles.h1}>Hey, I'm Kyle Runge</h1>
-        <p>A full stack web developer.</p>
-
         <h2>About Me</h2>
         <div>
             <h3>Get to know me!</h3>
