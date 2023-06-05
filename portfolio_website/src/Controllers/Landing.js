@@ -4,8 +4,10 @@ import styles from "./Landing.module.css";
 const Landing = () => {
     return (
         <div className={styles.backgroundImage}>
+            <div>
             <h1 className={styles.h1}>Hey, I'm Kyle Runge</h1>
-            <p>A full stack web developer.</p>
+            <p className={styles.p}>A full stack web developer.</p>
+            </div>
         </div>
     )
 };

@@ -5,7 +5,7 @@ import styles from "./Header.module.css";
 
 const Header = () => {
     return (
-    <div>
+    <div className={styles.header_body}>
         <header className={styles.header}>
             <div><p>Kyle Runge</p></div>
             <div className={styles.header_line_group}>
