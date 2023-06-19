@@ -10,6 +10,7 @@ const Projects = () => {
             <div>
                 <h3>Project Name</h3>
                 <p>Brief Project Overview</p>
+        //This needs to be Link. Import Link above
                 <a href="">Overview</a>
             </div>
         </div>
