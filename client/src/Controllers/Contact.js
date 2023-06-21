@@ -1,10 +1,19 @@
 import React from 'react'
+import styles from '../styles/Contact.module.css'
 
 const Contact = () => {
     return (
-        <div>
-            <h2>Contact</h2>
-            <p>Feel free to contact me!</p>
+        <div className={styles.body}>
+            <h3>Contact</h3>
+            <div className={styles.contactGroup} >
+                <p>Feel free to contact me!</p>
+                <div className={styles.contactGroup}>
+                    <p>Email</p>
+                    <p>LinkedIn</p>
+                    <p>Githhub</p>
+                    <p>Resume</p>
+                </div>
+            </div>
         </div>
     )
 }

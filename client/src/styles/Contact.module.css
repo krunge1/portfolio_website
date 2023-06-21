@@ -1,0 +1,10 @@
+.body{
+    margin: auto; 
+    width: 50%;
+}
+
+.contactGroup{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}

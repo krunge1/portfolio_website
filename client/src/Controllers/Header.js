@@ -9,7 +9,7 @@ const Header = () => {
         <header className={styles.header}>
             <div><p>Kyle Runge</p></div>
             <div className={styles.header_line_group}>
-                <Link className={styles.link} to="/home">home</Link>
+                <Link className={styles.link} to="/">home</Link>
                 <Link className={styles.link} to="/expertise">expertise</Link>
                 <Link className={styles.link} to="/projects">projects</Link>
                 <Link className={styles.link} to="/contact">contact</Link>
