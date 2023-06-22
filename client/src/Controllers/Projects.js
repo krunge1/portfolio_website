@@ -7,6 +7,7 @@ import JavaPlaceholder from '../assets/JavaPlaceholder.png'
 import Python_Placeholder from '../assets/Python_Placeholder.png'
 import MERN_Placeholder from '../assets/MERN_Placeholder.png'
 
+
 const Projects = () => {
     return (
     <div className={styles.body}>
@@ -14,7 +15,7 @@ const Projects = () => {
         <div className={styles.projectGroup}>
             <div className={styles.project}>
                 <img src={JavaPlaceholder} alt="JavaPlaceholder"/>
-                <div>
+                <div data-aos="zoom-in">
                     <h3>Financial Audit Management Tool</h3>
                     <p>Financial Audit Management Tool is a website developed to manage the requests and delivery of a financial audit</p>
                     <Link className={styles.link} to="/audit_app">Project Details</Link>
