@@ -6,7 +6,7 @@ import Skills from './Skills';
 
 const Introduction = () => {
     return (
-    <div className={styles.body}>
+    <div className={styles.body} id="about_me">
         <div className={styles.subHeader}>
             <h2>About Me</h2>
             <h3>Get to know me!</h3>

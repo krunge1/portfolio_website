@@ -3,7 +3,7 @@ import styles from '../styles/Contact.module.css'
 
 const Contact = () => {
     return (
-        <div className={styles.backgroundImage}>
+        <div className={styles.backgroundImage} id="contact">
         <div className={styles.body}>
             <h3 className={styles.subHeader}>Contact</h3>
             <div className={styles.contactGroup} >

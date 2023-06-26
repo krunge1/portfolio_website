@@ -3,7 +3,7 @@ import styles from "../styles/Landing.module.css";
 
 const Landing = () => {
     return (
-        <div className={styles.body}>
+        <div className={styles.body} id="home">
             <div className={styles.backgroundImage}>
                 <div>
                     <h1 className={styles.h1}>Hey, I'm Kyle Runge</h1>

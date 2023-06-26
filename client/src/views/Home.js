@@ -1,5 +1,5 @@
 import React from 'react'
-import {HashLink} from 'react-router-hash-link'
+import ScrollToHashElement from '../Controllers/ScrollToHashElement';
 import Header from '../Controllers/Header';
 import Landing from '../Controllers/Landing';
 import Introduction from '../Controllers/Introduction';
@@ -9,9 +9,10 @@ import Contact from '../Controllers/Contact';
 
 const Home = () => {
     return (
-        <div>      
+        <div>
+            <ScrollToHashElement/>      
             <Header/>
-            <HashLink to={"/#home"}><Landing/></HashLink>
+            <Landing/>
             <Introduction/>
             <Projects/>
             <Contact/>
