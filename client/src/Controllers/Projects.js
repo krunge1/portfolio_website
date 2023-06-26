@@ -11,7 +11,7 @@ import MERN_Placeholder from '../assets/MERN_Placeholder.png'
 const Projects = () => {
     return (
     <div className={styles.body}>
-        <h2>Projects</h2>
+        <h2 className={styles.subHeader}>Projects</h2>
         <div className={styles.projectGroup}>
             <div className={styles.project}>
                 <img src={JavaPlaceholder} alt="JavaPlaceholder"/>

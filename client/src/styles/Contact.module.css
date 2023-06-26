@@ -1,6 +1,22 @@
 .body{
     margin: auto; 
     width: 50%;
+    
+}
+.backgroundImage{
+    background-image: url(../assets/peakpx.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.subHeader{
+    font-family: "WensleyDemo";
+    text-align: center;
 }
 
 .contactGroup{

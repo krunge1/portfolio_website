@@ -3,16 +3,21 @@
     width: 50%;
 }
 
+.subHeader{
+    font-family: "WensleyDemo";
+    text-align: center;
+}
+
 .project{
     margin: auto;
+    margin-bottom: 15px;
     width: 75%;
     columns: 2;
     padding: 1em;
     border: 2px solid black;
-
 }
 
 .projectGroup{
-    margin: auto;
+    margin: 5px;
 
 }

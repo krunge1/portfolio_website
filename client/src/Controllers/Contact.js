@@ -3,8 +3,9 @@ import styles from '../styles/Contact.module.css'
 
 const Contact = () => {
     return (
+        <div className={styles.backgroundImage}>
         <div className={styles.body}>
-            <h3>Contact</h3>
+            <h3 className={styles.subHeader}>Contact</h3>
             <div className={styles.contactGroup} >
                 <p>Feel free to contact me!</p>
                 <div className={styles.contactGroup}>
@@ -14,6 +15,7 @@ const Contact = () => {
                     <p>Resume</p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

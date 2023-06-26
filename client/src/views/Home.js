@@ -1,4 +1,5 @@
 import React from 'react'
+import {HashLink} from 'react-router-hash-link'
 import Header from '../Controllers/Header';
 import Landing from '../Controllers/Landing';
 import Introduction from '../Controllers/Introduction';
@@ -10,8 +11,8 @@ const Home = () => {
     return (
         <div>      
             <Header/>
-            <Landing/>
-            <Introduction/> 
+            <HashLink to={"/#home"}><Landing/></HashLink>
+            <Introduction/>
             <Projects/>
             <Contact/>
         </div>
