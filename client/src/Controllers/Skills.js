@@ -6,13 +6,13 @@ import { faHtml5, faCss3Alt, faPython, faJava, faGithub } from '@fortawesome/fre
 const Skills = () => {
     return (
     <div className={styles.body}>
-        <p className={styles.skill}>HTML <FontAwesomeIcon icon={faHtml5}/></p>
-        <p className={styles.skill}>CSS <FontAwesomeIcon icon={faCss3Alt}/></p>
-        <p className={styles.skill}>Python <FontAwesomeIcon icon={faPython}/></p>
+        <p className={styles.skill}>HTML</p>
+        <p className={styles.skill}>CSS</p>
+        <p className={styles.skill}>Python</p>
         <p className={styles.skill}>Flask</p>
-        <p className={styles.skill}>Java <FontAwesomeIcon icon={faJava}/></p>
+        <p className={styles.skill}>Java</p>
         <p className={styles.skill}>Springboot</p>
-        <p className={styles.skill}>Github <FontAwesomeIcon icon={faGithub}/></p>
+        <p className={styles.skill}>Github </p>
     </div>
     )
 }

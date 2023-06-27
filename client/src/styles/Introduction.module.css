@@ -1,5 +1,13 @@
+.h2{
+    font-size: 2em;
+    color: #303030;
+    font-family: "WensleyDemo";
+    text-align: center;
+}
+
 .subHeader{
-    font-size: 40px;
+    font-size: 1.5em;
+    color: #505050;
     font-family: "WensleyDemo";
     text-align: center;
 }
@@ -17,9 +25,45 @@
 .narrative{
     margin: auto; 
     width: 50%;
-    font-size: 30px;
+    font-size: 1.5em;
     font-family: "WensleyDemo";
     text-align: center;
     color: #505050;
 }
 
+
+.link {
+    text-decoration: none;
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "WensleyDemo";
+    font-size: 2em;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 60px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.link:hover,
+.link:focus { 
+    background-color: #16437E;
+    color: #ffffff;
+}

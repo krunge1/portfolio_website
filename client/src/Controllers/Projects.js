@@ -10,12 +10,12 @@ import MERN_Placeholder from '../assets/MERN_Placeholder.png'
 
 const Projects = () => {
     return (
-    <div className={styles.body} id="projects">
+    <div className={styles.body}  id="projects">
         <h2 className={styles.subHeader}>Projects</h2>
         <div className={styles.projectGroup}>
             <div className={styles.project}>
-                <img src={JavaPlaceholder} alt="JavaPlaceholder"/>
-                <div data-aos="zoom-in">
+                <img src={JavaPlaceholder} alt="JavaPlaceholder" className={styles.project_image}/>
+                <div className={styles.project_detail}>
                     <h3>Financial Audit Management Tool</h3>
                     <p>Financial Audit Management Tool is a website developed to manage the requests and delivery of a financial audit</p>
                     <Link className={styles.link} to="/audit_app">Project Details</Link>
@@ -23,8 +23,8 @@ const Projects = () => {
                 </div>
             </div>
             <div className={styles.project}>
-                <img src={Python_Placeholder} alt="Python_Placeholder"/>
-                <div>
+                <img src={Python_Placeholder} alt="Python_Placeholder" className={styles.project_image}/>
+                <div className={styles.project_detail}>
                     <h3>Python Name</h3>
                     <p>Brief Project Overview</p>
                     <Link className={styles.link} to="/python_project">Project Details</Link>
@@ -32,11 +32,10 @@ const Projects = () => {
                 </div>
             </div>
             <div className={styles.project}>
-                <img src={MERN_Placeholder} alt="MERN_Placeholder"/>
-                <div>
+                <img src={MERN_Placeholder} alt="MERN_Placeholder" className={styles.project_image}/>
+                <div className={styles.project_detail}>
                     <h3>MERN Name</h3>
                     <p>Brief Project Overview</p>
-            {/* //This needs to be Link. Import Link above */}
                     <Link className={styles.link} to="/MERN_project">Project Details</Link>
                     <Link to="/"><FontAwesomeIcon icon={faGithub}/></Link>
                 </div>
