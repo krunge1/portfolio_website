@@ -6,7 +6,7 @@ const Landing = () => {
     return (
         <div className={styles.body} id="home">
             <div className={styles.backgroundImage}>
-                <div>
+                <div className={styles.content}>
                     <h1 className={styles.h1}>Hey, I'm Kyle Runge</h1>
                     <p className={styles.p}>A full stack web developer.</p>
                     <Link className={styles.link} to="/#projects">projects</Link>

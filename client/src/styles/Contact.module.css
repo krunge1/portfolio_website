@@ -23,4 +23,5 @@
     display: flex;
     justify-content: space-between;
     gap: 25px;
+    color: #505050;
 }
