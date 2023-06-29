@@ -2,7 +2,9 @@ import React from 'react'
 
 const JavaDetails = () => {
     return (
-        <div>JavaDetails</div>
+        <div>
+            
+        </div>
     )
 }
 

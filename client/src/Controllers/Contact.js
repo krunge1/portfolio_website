@@ -26,11 +26,11 @@ const Contact = () => {
         <div className={styles.backgroundImage} id="contact">
         <div className={styles.body}>
             <h3 className={styles.subHeader}>Contact</h3>
-            <p>Feel free to contact me!</p>
+            <p className={styles.text}>Feel free to contact me using the form below.</p>
             <div className={styles.contactGroup} >
             </div>
             <form ref={form} onSubmit={sendEmail} className={styles.form}>
-                <div className={styles.inputContainer}>
+                <div className={styles.topInputContainer}>
                     <label>Name</label>
                     <input 
                         className={styles.input}
@@ -52,7 +52,7 @@ const Contact = () => {
                         onChange = {(e) => setEmail(e.target.value)}
                         />
                 </div>
-                <div className={styles.inputContainer}>
+                <div className={styles.textAreaInputContainer}>
                     <label>Message</label>
                     <textarea
                         className={styles.input} 

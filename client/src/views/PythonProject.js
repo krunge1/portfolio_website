@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../Controllers/Header'
-import Contact from '../Controllers/Contact'
+import Footer from '../Controllers/Footer'
+
 
 const PythonProject = () => {
     return (
         <div>
             <Header/>
-
-            <Contact/>
+            <Footer/>
         </div>
     )
 }

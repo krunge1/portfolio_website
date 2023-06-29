@@ -21,6 +21,13 @@
     text-align: center;
 }
 
+.text{
+    font-size: 1.5em;
+    color: #303030;
+    font-family: "WensleyDemo";
+    text-align: center;
+}
+
 .contactGroup{
     display: flex;
     justify-content: space-between;
@@ -29,7 +36,7 @@
 }
 
 .form {
-    background-color: #F0F0F0;
+    background-color: #A0A0A0;
     border-radius: 20px;
     box-sizing: border-box;
     height: 500px;
@@ -38,22 +45,36 @@
     margin: auto;
 }
 
+.topInputContainer{
+    height: 3em;
+    position: relative;
+    width: 100%;
+}
+
 .inputContainer {
-    height: 50px;
+    height: 3em;
+    position: relative;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.textAreaInputContainer {
+    height: 17.5em;
     position: relative;
     width: 100%;
     margin-top: 2em;
 }
 
 .input {
-    background-color: #303245;
+    background-color: #ffffff;
     border-radius: 12px;
     border: 0;
     box-sizing: border-box;
-    color: #eee;
+    color: #505050;
     font-size: 18px;
     height: 100%;
     outline: 0;
     padding: 4px 20px 0;
     width: 100%;
 }
+
