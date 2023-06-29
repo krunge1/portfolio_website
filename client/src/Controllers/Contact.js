@@ -35,27 +35,39 @@ const Contact = () => {
                     <p>Resume</p>
                 </div>
             </div>
-            <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input 
-                    type="text" 
-                    name="user_name"
-                    value={name}
-                    onChange = {(e) => setName(e.target.value)}
-                    />
-                <label>Email</label>
-                <input 
-                    type="email" 
-                    name="user_email" 
-                    value={email}
-                    onChange = {(e) => setEmail(e.target.value)}
-                    />
-                <label>Message</label>
-                <textarea 
-                    name="message" 
-                    value={message}
-                    onChange = {(e) => setMessage(e.target.value)}
-                    />
+            <form ref={form} onSubmit={sendEmail} className={styles.form}>
+                <div className={styles.inputContainer}>
+                    <label>Name</label>
+                    <input 
+                        className={styles.input}
+                        placeholder='Name'
+                        type="text" 
+                        name="user_name"
+                        value={name}
+                        onChange = {(e) => setName(e.target.value)}
+                        />
+                </div>
+                <div className={styles.inputContainer}>
+                    <label>Email</label>
+                    <input 
+                        className={styles.input}
+                        placeholder='Email'
+                        type="email" 
+                        name="user_email" 
+                        value={email}
+                        onChange = {(e) => setEmail(e.target.value)}
+                        />
+                </div>
+                <div className={styles.inputContainer}>
+                    <label>Message</label>
+                    <textarea
+                        className={styles.input} 
+                        placeholder='Message'
+                        name="message" 
+                        value={message}
+                        onChange = {(e) => setMessage(e.target.value)}
+                        />
+                </div>
                 <input type="submit" value="Send" />
             </form>
         </div>

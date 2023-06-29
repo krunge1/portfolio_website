@@ -5,7 +5,7 @@
 }
 .backgroundImage{
     background-image: url(../assets/peakpx.jpg);
-    height: 50vh;
+    height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -15,6 +15,8 @@
 }
 
 .subHeader{
+    font-size: 2em;
+    color: #303030;
     font-family: "WensleyDemo";
     text-align: center;
 }
@@ -24,4 +26,34 @@
     justify-content: space-between;
     gap: 25px;
     color: #505050;
+}
+
+.form {
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width: 40em;
+    margin: auto;
+}
+
+.inputContainer {
+    height: 50px;
+    position: relative;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
 }
