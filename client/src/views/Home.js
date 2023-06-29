@@ -5,6 +5,7 @@ import Landing from '../Controllers/Landing';
 import Introduction from '../Controllers/Introduction';
 import Projects from '../Controllers/Projects';
 import Contact from '../Controllers/Contact';
+import Footer from '../Controllers/Footer';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Introduction/>
             <Projects/>
             <Contact/>
+            <Footer/>
         </div>
     )
 }

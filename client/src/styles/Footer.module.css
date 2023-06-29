@@ -1,0 +1,19 @@
+.body{
+    margin: auto; 
+    background-color: #202020;
+    
+}
+
+.footer{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+
+.contactGroup{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
