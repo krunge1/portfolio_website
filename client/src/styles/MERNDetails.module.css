@@ -1,5 +1,6 @@
 .body{
-    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .backgroundImage{
@@ -10,6 +11,13 @@
     display: flex;
     justify-content: center;
     align-items: center;    
+}
+
+.projectImage{
+    display: block;
+    margin:auto;
+    margin-top: 1em;
+    width: 50%;
 }
 
 .content{
@@ -24,10 +32,19 @@
     color: #303030;
 }
 
-.p{
-    margin: auto;
-    width: 60%;
+.subHeader{
     font-size: 2em;
+    color: #303030;
+    font-family: "WensleyDemo";
+    text-align: center;
+    margin-top: 2em;
+}
+
+.projectNarrative{
+    margin: auto;
+    margin-top: 2em;
+    width: 40%;
+    font-size: 1.5em;
     font-family: "WensleyDemo";
     text-align: center;
     color: #505050;
@@ -69,7 +86,22 @@
     color: #ffffff;
 }
 
-.project_image{
-    margin:auto;
-    width: 50%;
+.skill{
+    align-items: center;
+    background-color: #F0F0F0;
+    border: 0;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #505050;
+
+}
+
+.skillsBox{
+    margin: auto; 
+    width: 30%;
+    display: flex; 
+    flex-wrap: wrap;
 }
