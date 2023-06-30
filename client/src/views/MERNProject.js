@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Controllers/Header'
-import Footer from '../Controllers/Footer'
 import MERNDetails from '../Controllers/MERNDetails'
+import Footer from '../Controllers/Footer'
 
 
 const s = () => {
