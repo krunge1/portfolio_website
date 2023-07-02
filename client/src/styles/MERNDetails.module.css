@@ -18,12 +18,18 @@
     margin:auto;
     margin-top: 1em;
     width: 50%;
+    border: 2px solid #303030;
+    box-shadow: 10px 10px #303030;
 }
 
 .content{
     text-align: center;
 }
 
+.contentLive{
+    text-align: center;
+    padding: 1em;
+}
 
 .h1{
     font-family: "WensleyDemo";
