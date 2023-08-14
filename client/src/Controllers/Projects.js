@@ -18,17 +18,17 @@ const Projects = () => {
                 <div className={styles.project_detail}>
                     <h3>Financial Audit Management Tool</h3>
                     <p>Financial Audit Management Tool is a website developed to manage the requests and delivery of a financial audit</p>
-                    <Link className={styles.link} to="/audit_app">Project Details</Link>
-                    <Link to="/"><FontAwesomeIcon icon={faGithub}/></Link>
+                    <Link className={styles.link} to="/audit_manager">Project Details</Link>
+                    <Link to="https://github.com/krunge1/AuditManager"><FontAwesomeIcon icon={faGithub}/></Link>
                 </div>
             </div>
             <div className={styles.project}>
                 <img src={Python_Placeholder} alt="Python_Placeholder" className={styles.project_image}/>
                 <div className={styles.project_detail}>
-                    <h3>Python Name</h3>
-                    <p>Brief Project Overview</p>
-                    <Link className={styles.link} to="/python_project">Project Details</Link>
-                    <Link to="/"><FontAwesomeIcon icon={faGithub}/></Link>
+                    <h3>Blind Date</h3>
+                    <p>Blind Date is a dating application where you can only match with other users if recommended by friends. </p>
+                    <Link className={styles.link} to="/blind_date">Project Details</Link>
+                    <Link to="https://github.com/krunge1/DatingApp"><FontAwesomeIcon icon={faGithub}/></Link>
                 </div>
             </div>
             <div className={styles.project}>

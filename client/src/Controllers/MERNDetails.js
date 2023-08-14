@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import styles from '../styles/MERNDetails.module.css'
+import styles from '../styles/ProjectDetails.module.css'
 import projectImage from '../assets/portfolio_project.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -26,6 +26,7 @@ const MERNDetails = () => {
                     <p className={styles.skill}>CSS</p>
                     <p className={styles.skill}>Github</p>
                     <p className={styles.skill}>FontAwesome</p>
+                    <p className={styles.skill}>EmailJS</p>
                 </div>
             <div className={styles.contentLive}>
                 <h2 className={styles.subHeader}>See Live</h2>

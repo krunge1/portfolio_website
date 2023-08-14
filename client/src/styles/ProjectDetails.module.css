@@ -84,6 +84,7 @@
     user-select: none;
     -webkit-user-select: none;
     vertical-align: middle;
+    gap: .5em;
 }
 
 .link:hover,
