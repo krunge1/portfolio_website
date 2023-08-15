@@ -2,7 +2,7 @@ import react from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Home from './views/Home';
-import PythonProject from './views/PythonProject';
+import PythonProject from './views/BlindDate';
 import MERNProject from './views/MERNProject';
 import AuditManager from './views/AuditManager';
 

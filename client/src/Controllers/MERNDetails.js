@@ -11,7 +11,7 @@ const MERNDetails = () => {
             <div className={styles.backgroundImage}>
                 <div className={styles.content}>
                     <h1 className={styles.h1}>Portfolio Project</h1>
-                    <p className={styles.p}>This project was a react front end portfolio. See below for build details including project overview, tools used, and live link to the project.</p>
+                    <p className={styles.p}>This project is a front end website used to showcase my skills as a full stack developer. See below for build details including project overview, tools used, and live link to the project.</p>
                     <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/portfolio_website">project</Link>
                 </div>
             </div>

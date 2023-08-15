@@ -62,7 +62,9 @@ const Contact = () => {
                         onChange = {(e) => setMessage(e.target.value)}
                         />
                 </div>
+                <div className={styles.buttonBox}>
                     <input className={styles.button} type="submit" value="Send" />
+                </div>
             </form>
         </div>
         </div>

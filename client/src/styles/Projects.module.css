@@ -13,7 +13,9 @@
 
 .project_image{
     margin:auto;
-    width: 50%;
+    width: 40%;
+    border: 2px solid #303030;
+    box-shadow: 5px 5px #303030;
 }
 
 .project{
@@ -31,4 +33,49 @@
 .project_detail{
     margin: auto;
     width: 50%;
+}
+
+.link {
+    text-decoration: none;
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "WensleyDemo";
+    font-size: 1em;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 45px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    gap: .5em;
+    margin-bottom: .5em;
+}
+
+.link:hover,
+.link:focus { 
+    background-color: #16437E;
+    color: #ffffff;
+}
+
+.linkBox{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }

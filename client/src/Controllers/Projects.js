@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import JavaPlaceholder from '../assets/JavaPlaceholder.png'
 import Python_Placeholder from '../assets/Python_Placeholder.png'
-import MERN_Placeholder from '../assets/MERN_Placeholder.png'
+import projectImage from '../assets/portfolio_project.png'
 
 
 const Projects = () => {
@@ -18,8 +18,10 @@ const Projects = () => {
                 <div className={styles.project_detail}>
                     <h3>Financial Audit Management Tool</h3>
                     <p>Financial Audit Management Tool is a website developed to manage the requests and delivery of a financial audit</p>
-                    <Link className={styles.link} to="/audit_manager">Project Details</Link>
-                    <Link to="https://github.com/krunge1/AuditManager"><FontAwesomeIcon icon={faGithub}/></Link>
+                    <div className={styles.linkBox}>
+                        <Link className={styles.link} to="/audit_manager">Project Details</Link>
+                        <Link className={styles.link} to="https://github.com/krunge1/AuditManager"><FontAwesomeIcon icon={faGithub}/>Github</Link>
+                    </div>
                 </div>
             </div>
             <div className={styles.project}>
@@ -27,17 +29,21 @@ const Projects = () => {
                 <div className={styles.project_detail}>
                     <h3>Blind Date</h3>
                     <p>Blind Date is a dating application where you can only match with other users if recommended by friends. </p>
-                    <Link className={styles.link} to="/blind_date">Project Details</Link>
-                    <Link to="https://github.com/krunge1/DatingApp"><FontAwesomeIcon icon={faGithub}/></Link>
+                    <div className={styles.linkBox}>
+                        <Link className={styles.link} to="/blind_date">Project Details</Link>
+                        <Link className={styles.link}to="https://github.com/krunge1/DatingApp"><FontAwesomeIcon icon={faGithub}/>Github</Link>
+                    </div>
                 </div>
             </div>
             <div className={styles.project}>
-                <img src={MERN_Placeholder} alt="MERN_Placeholder" className={styles.project_image}/>
+                <img src={projectImage} alt="projectImage" className={styles.project_image}/>
                 <div className={styles.project_detail}>
-                    <h3>MERN Name</h3>
-                    <p>Brief Project Overview</p>
-                    <Link className={styles.link} to="/MERN_project">Project Details</Link>
-                    <Link to="/"><FontAwesomeIcon icon={faGithub}/></Link>
+                    <h3>Portfolio Project</h3>
+                    <p>A multi-page personal portfolio website, built using React and showcasing skills in various projects.</p>
+                    <div className={styles.linkBox}>
+                        <Link className={styles.link} to="/MERN_project">Project Details</Link>
+                        <Link className={styles.link} to="https://github.com/krunge1/portfolio_website"><FontAwesomeIcon icon={faGithub}/>Github</Link>
+                    </div>
                 </div>
             </div>
 

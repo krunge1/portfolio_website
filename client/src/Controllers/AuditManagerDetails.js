@@ -32,8 +32,10 @@ const AuditManagerDetails = () => {
             </div>
         <div className={styles.contentLive}>
             <h2 className={styles.subHeader}>See Live</h2>
-            <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/AuditManager">Audit Manager</Link>
-            <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/AuditManager"><FontAwesomeIcon icon={faGithub}/>Github Link</Link>
+            <div className={styles.seeLiveBox}>
+                <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/AuditManager">Audit Manager</Link>
+                <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/AuditManager"><FontAwesomeIcon icon={faGithub}/>Github</Link>
+            </div>
         </div>
     </div>
     )

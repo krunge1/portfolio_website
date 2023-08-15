@@ -1,2 +1,2 @@
 ﻿# portfolio_website
-Website built off of React.
+This project is a multi-page personal portfolio website. It is built using React library, Javascript, HTML, and CSS. I've also mixed in a few additional npm packages such as FontAwesome and EmailJS. The website was built to showcase my skills and projects.
