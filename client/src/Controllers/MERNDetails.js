@@ -29,7 +29,7 @@ const MERNDetails = () => {
                     <p className={styles.skill}>EmailJS</p>
                 </div>
             <div className={styles.contentLive}>
-                <h2 className={styles.subHeader}>See Live</h2>
+                <h2 className={styles.subHeader}>See the code</h2>
                 <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/portfolio_website"><FontAwesomeIcon icon={faGithub}/>Github Link</Link>
             </div>
         </div>

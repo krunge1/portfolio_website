@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import styles from '../styles/ProjectDetails.module.css'
-import projectImage from '../assets/portfolio_project.png'
+import blindDate from '../assets/blindDate.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -15,7 +15,7 @@ const BlindDateDetails = () => {
                 <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/DatingApp">project</Link>
             </div>
         </div>
-        <img src={projectImage} alt="projectImage" className={styles.projectImage}/>
+        <img src={blindDate} alt="Blind Date" className={styles.projectImage}/>
         <h2 className={styles.subHeader}>Project Overview</h2>
             <p className={styles.projectNarrative}>A group project building a dating application which you can only match with other users if recommended by friends. The goal of the application is to provide opportunity for friends to vet people that their friends decide to date before they potentially become an item and are introduced to the friend group. It's like arranged dating, only it's your friends opinions involved, not your parents.</p>
             <p className={styles.projectNarrative}>The application is built on the JavaScript language and the MERN stack (MongoDB, Express, React, Node.js). Front-end styling uses CSS and Tailwind CSS.</p>
@@ -40,7 +40,7 @@ const BlindDateDetails = () => {
         <div className={styles.contentLive}>
             <h2 className={styles.subHeader}>See Live</h2>
             <div className={styles.seeLiveBox}>
-                <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/DatingApp">Audit Manager</Link>
+                <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/DatingApp">Blind Date</Link>
                 <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/DatingApp"><FontAwesomeIcon icon={faGithub}/>Github</Link>
             </div>
         </div>

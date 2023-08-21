@@ -63,7 +63,7 @@ const Contact = () => {
                         />
                 </div>
                 <div className={styles.buttonBox}>
-                    <input className={styles.button} type="submit" value="Send" />
+                    <input className={styles.button} type="submit" value="send" />
                 </div>
             </form>
         </div>
