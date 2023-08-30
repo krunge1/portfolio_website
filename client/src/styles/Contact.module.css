@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-between;
     gap: 25px;
-    color: #505050;
+    /* color: #505050; */
 }
 
 .form {
@@ -83,7 +83,7 @@
 }
 
 .button {
-    margin-top: 2em;
+    margin-top: 1em;
     text-decoration: none;
     align-items: center;
     background-color: #0A66C2;
@@ -113,7 +113,7 @@
     -webkit-user-select: none;
     vertical-align: middle;
     gap: .5em;
-    margin-bottom: .5em;
+    margin-bottom: 2em;
 }
 
 .button:hover,

@@ -27,9 +27,8 @@ const Contact = () => {
         <div className={styles.body}>
             <h3 className={styles.subHeader}>Contact</h3>
             <p className={styles.text}>Feel free to contact me using the form below.</p>
-            <div className={styles.contactGroup} >
-            </div>
-            <form ref={form} onSubmit={sendEmail} className={styles.form}>
+            <form ref={form} onSubmit={sendEmail}>
+                <div className={styles.form}>
                 <div className={styles.topInputContainer}>
                     <label>Name</label>
                     <input 
@@ -62,11 +61,12 @@ const Contact = () => {
                         onChange = {(e) => setMessage(e.target.value)}
                         />
                 </div>
+                </div>
                 <div className={styles.buttonBox}>
                     <input className={styles.button} type="submit" value="send" />
                 </div>
             </form>
-        </div>
+            </div>
         </div>
     )
 }
