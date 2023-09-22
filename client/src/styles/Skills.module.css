@@ -17,5 +17,11 @@
     margin: 10px;
     text-align: center;
     color: #505050;
+    @media (max-width: 992px) {
+        font-size: .75em;
+        max-height: .25em;
+        width: auto;
+        align-items: center;
+    }
 
 }

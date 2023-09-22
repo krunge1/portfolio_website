@@ -2,6 +2,7 @@
     margin: auto;
     margin-top: 100px;
     width: 80%;
+    
 }
 
 .subHeader{
@@ -28,11 +29,19 @@
     color: #505050;
     font-size: 1.5em;
     gap: 5em;
+    @media (max-width: 992px) {
+        display: block;
+
+    }
 }
 
 .project_detail{
     margin: auto;
     width: 50%;
+    @media (max-width: 992px) {
+        display: block;
+
+    }
 }
 
 .link {
