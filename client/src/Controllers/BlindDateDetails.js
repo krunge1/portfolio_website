@@ -11,7 +11,7 @@ const BlindDateDetails = () => {
         <div className={styles.backgroundImage}>
             <div className={styles.content}>
                 <h1 className={styles.h1}>Blind Date</h1>
-                <p className={styles.p}>A group project using the MERN stack. See below for build details including project overview, tools used, and live link to the project.</p>
+                <p className={styles.p}>A group project using the MERN stack. See below for build details including project overview, tools used, and code to the project.</p>
                 <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/DatingApp">project</Link>
             </div>
         </div>
@@ -40,7 +40,6 @@ const BlindDateDetails = () => {
         <div className={styles.contentLive}>
             <h2 className={styles.subHeader}>See Live</h2>
             <div className={styles.seeLiveBox}>
-                <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/DatingApp">Blind Date</Link>
                 <Link target="_blank" rel="noopener noreferrer" className={styles.link} to="https://github.com/krunge1/DatingApp"><FontAwesomeIcon icon={faGithub}/>Github</Link>
             </div>
         </div>

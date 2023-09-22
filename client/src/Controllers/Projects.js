@@ -6,6 +6,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import JavaPlaceholder from '../assets/JavaPlaceholder.png'
 import Python_Placeholder from '../assets/Python_Placeholder.png'
 import blindDate from '../assets/blindDate.gif'
+import auditManager from '../assets/auditManager.gif'
 import projectImage from '../assets/portfolio_project.png'
 
 
@@ -15,10 +16,10 @@ const Projects = () => {
         <h2 className={styles.subHeader}>Projects</h2>
         <div className={styles.projectGroup}>
             <div className={styles.project}>
-                <img src={JavaPlaceholder} alt="JavaPlaceholder" className={styles.project_image}/>
+                <img src={auditManager} alt="auditManager" className={styles.project_image}/>
                 <div className={styles.project_detail}>
-                    <h3>Financial Audit Management Tool</h3>
-                    <p>Financial Audit Management Tool is a website developed to manage the requests and delivery of a financial audit</p>
+                    <h3>Big 4 Audit Manager</h3>
+                    <p>Big 4 Audit Manager is a website developed to manage requests during a financial audit.</p>
                     <div className={styles.linkBox}>
                         <Link className={styles.link} to="/audit_manager">project details</Link>
                         <Link className={styles.link} to="https://github.com/krunge1/AuditManager"><FontAwesomeIcon icon={faGithub}/>Github</Link>

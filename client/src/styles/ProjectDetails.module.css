@@ -120,7 +120,7 @@
 .seeLiveBox{
     margin: auto;
     width: 40%;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     flex-wrap: wrap;
 }
