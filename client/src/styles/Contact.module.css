@@ -5,7 +5,7 @@
 }
 .backgroundImage{
     background-image: url(../assets/peakpx.jpg);
-    height: 100vh;
+    height: 50em;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -39,8 +39,8 @@
     background-color: #A0A0A0;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 500px;
-    padding: 20px;
+    height: 32em;
+    padding: 2em;
     width: 40em;
     margin: auto;
 }
@@ -71,7 +71,7 @@
     box-sizing: border-box;
     border: 0;
     color: #505050;
-    font-size: 18px;
+    font-size: 1.5em;
     height: 100%;
     outline: 0;
     padding: 4px 20px 0;

@@ -22,7 +22,7 @@ const Projects = () => {
                     <p>Big 4 Audit Manager is a website developed to manage requests during a financial audit.</p>
                     <div className={styles.linkBox}>
                         <Link className={styles.link} to="/audit_manager">project details</Link>
-                        <Link className={styles.link} to="https://github.com/krunge1/AuditManager"><FontAwesomeIcon icon={faGithub}/>Github</Link>
+                        <Link className={styles.link} target="_blank" to="https://github.com/krunge1/AuditManager"><FontAwesomeIcon icon={faGithub}/>Github</Link>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ const Projects = () => {
                     <p>Blind Date is a dating application where you can only match with other users if recommended by friends. </p>
                     <div className={styles.linkBox}>
                         <Link className={styles.link} to="/blind_date">project details</Link>
-                        <Link className={styles.link}to="https://github.com/krunge1/DatingApp"><FontAwesomeIcon icon={faGithub}/>Github</Link>
+                        <Link className={styles.link} target="_blank" to="https://github.com/krunge1/DatingApp"><FontAwesomeIcon icon={faGithub}/>Github</Link>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@ const Projects = () => {
                     <p>A multi-page personal portfolio website, built using React and showcasing skills in various projects.</p>
                     <div className={styles.linkBox}>
                         <Link className={styles.link} to="/MERN_project">project details</Link>
-                        <Link className={styles.link} to="https://github.com/krunge1/portfolio_website"><FontAwesomeIcon icon={faGithub}/>Github</Link>
+                        <Link className={styles.link} target="_blank" to="https://github.com/krunge1/portfolio_website"><FontAwesomeIcon icon={faGithub}/>Github</Link>
                     </div>
                 </div>
             </div>
